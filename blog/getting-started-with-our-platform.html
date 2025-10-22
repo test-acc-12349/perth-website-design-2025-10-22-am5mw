@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover essential web design trends and best practices for Perth businesses. Learn how to create high-converting websites that engage visitors and drive business growth.">
+    <meta name="keywords" content="web design trends, Perth web design, website best practices, responsive design, user experience, conversion optimization">
+    <meta name="author" content="Perth Website Design">
+    <meta name="theme-color" content="#1f2937">
+    <title>Web Design Trends & Best Practices for Perth Businesses | Perth Website Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                        },
+                        secondary: {
+                            50: '#f8fafc',
+                            600: '#475569',
+                            700: '#334155',
+                            900: '#0f172a',
+                        }
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-in',
+                        'slide-up': 'slideUp 0.6s ease-out',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(20px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+        }
+        
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+        
+        .accordion-item {
+            transition: all 0.3s ease;
+        }
+        
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .accordion-content.active {
+            max-height: 500px;
+        }
+    </style>
+</head>
+<body class="bg-white text-secondary-700">
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex items-center justify-between">
+                <a href="https://test-acc-12349.github.io/perth-website-design-2025-10-22-am5mw" class="text-2xl font-bold gradient-text">PWD</a>
+                <a href="https://test-acc-12349.github.io/perth-website-design-2025-10-22-am5mw" class="text-secondary-600 hover:text-primary-600 transition duration-300 font-medium">
+                    ← Back
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Blog Post Content -->
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <!-- Blog Header -->
+        <header class="mb-12 animate-fade-in">
+            <div class="mb-6">
+                <span class="inline-block bg-primary-100 text-primary-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">Web Design Guide</span>
+                <h1 class="text-4xl md:text-5xl font-bold text-secondary-900 mb-4 leading-tight">
+                    Web Design Trends & Best Practices for Perth Businesses in 2024
+                </h1>
+                <div class="flex items-center gap-4 text-secondary-600">
+                    <span>Published on December 2024</span>
+                    <span>•</span>
+                    <span>8 min read</span>
+                </div>
+            </div>
+            
+            <!-- Featured Image -->
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1200&h=675&fit=crop" alt="Modern web design workspace with responsive design layouts displayed on multiple devices" class="w-full h-auto rounded-lg shadow-lg mb-8">
+        </header>
+
+        <!-- Blog Content -->
+        <div class="prose prose-lg max-w-none text-secondary-700">
+            <!-- Introduction -->
+            <section class="mb-12">
+                <p class="text-xl leading-relaxed mb-6">
+                    In today's digital landscape, having a well-designed website is no longer optional—it's essential for Perth businesses looking to thrive online. With consumers spending an average of 88 seconds on a website before making a judgment, the importance of first impressions cannot be overstated. Whether you're a small business owner, entrepreneur, or marketing professional, understanding current web design trends and best practices can significantly impact your online success and conversion rates.
+                </p>
+                <p class="text-lg leading-relaxed mb-6">
+                    This comprehensive guide explores the latest web design trends, proven best practices, and actionable strategies that Perth businesses can implement to create websites that not only look stunning but also drive measurable results. From responsive design principles to conversion optimization techniques, we'll cover everything you need to know to stay competitive in Western Australia's dynamic business environment.
+                </p>
+            </section>
+
+            <!-- Section 1: Responsive Design -->
+            <section class="mb-12">
+                <h2 class="text-3xl font-bold text-secondary-900 mb-6">1. Responsive Design: The Non-Negotiable Foundation</h2>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    Responsive web design has transitioned from being a trend to becoming an absolute requirement. With over 60% of web traffic coming from mobile devices, Perth businesses cannot afford to ignore mobile optimization. A responsive website automatically adjusts its layout, images, and functionality based on the device being used—whether it's a smartphone, tablet, or desktop computer.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    The benefits of responsive design extend far beyond user experience. Google has officially made mobile-friendliness a ranking factor, meaning websites that aren't optimized for mobile devices face penalties in search engine rankings. For Perth businesses competing for local search visibility, this is particularly important. A well-implemented responsive design ensures that your website looks professional and functions flawlessly across all devices, improving both user satisfaction and SEO performance.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-6">
+                    When implementing responsive design, consider flexible grids, scalable images, and media queries that adjust your website's presentation based on screen size. Professional web design agencies in Perth understand that responsive design isn't just about making things smaller on mobile—it's about creating an optimized experience for each device type, ensuring that every visitor has access to the information they need quickly and easily.
+                </p>
+            </section>
+
+            <!-- Section 2: User Experience -->
+            <section class="mb-12">
+                <h2 class="text-3xl font-bold text-secondary-900 mb-6">2. Prioritizing User Experience (UX) and Accessibility</h2>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    User experience has become the cornerstone of effective web design. A beautiful website that's difficult to navigate will drive visitors away, regardless of how impressive it looks. Modern web design prioritizes intuitive navigation, clear calls-to-action, and logical information hierarchy that guides visitors toward conversion goals.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    Accessibility is equally important and often overlooked by Perth businesses. Web accessibility ensures that your website is usable by everyone, including people with disabilities. This includes features like alt text for images, proper heading structure, keyboard navigation, and sufficient color contrast. Beyond being ethically important, accessible design also improves SEO and expands your potential customer base.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    Key UX principles include:
+                </p>
+                
+                <ul class="list-disc list-inside space-y-3 mb-6 text-lg">
+                    <li><strong>Fast Loading Times:</strong> Users expect websites to load in under 3 seconds. Slow websites lead to higher bounce rates and lost conversions.</li>
+                    <li><strong>Clear Navigation:</strong> Visitors should understand your site's structure within seconds. Logical menu organization and breadcrumb trails help users find information easily.</li>
+                    <li><strong>Consistent Branding:</strong> Maintain consistent visual elements, typography, and messaging throughout your website to build trust and recognition.</li>
+                    <li><strong>Minimalist Design:</strong> Avoid cluttering your pages with unnecessary elements. White space and clean layouts improve readability and focus.</li>
+                    <li><strong>Mobile-First Approach:</strong> Design for mobile devices first, then enhance for larger screens. This ensures optimal functionality across all devices.</li>
+                </ul>
+                
+                <p class="text-lg leading-relaxed mb-6">
+                    For Perth businesses, investing in professional UX design can result in higher conversion rates, improved customer satisfaction, and reduced bounce rates. When visitors have a positive experience on your website, they're more likely to become customers and recommend your business to others.
+                </p>
+            </section>
+
+            <!-- Section 3: Visual Design Trends -->
+            <section class="mb-12">
+                <h2 class="text-3xl font-bold text-secondary-900 mb-6">3. Current Visual Design Trends</h2>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    While functionality is paramount, aesthetics matter too. Current web design trends focus on creating visually appealing websites that reflect modern design principles while maintaining excellent usability. Here are the visual design trends that Perth web design professionals are implementing in 2024:
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    <strong>Minimalist and Clean Design:</strong> The era of cluttered, overly decorated websites has passed. Modern web design embraces minimalism, using ample white space, limited color palettes, and purposeful typography. This approach not only looks contemporary but also improves user focus and reduces cognitive load.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    <strong>Bold Typography:</strong> Large, bold fonts have become a staple of modern web design. Instead of small, hard-to-read text, contemporary websites use typography as a design element, creating visual hierarchy and drawing attention to key messages.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    <strong>Gradient Backgrounds:</strong> Subtle gradients add depth and visual interest without overwhelming the design. Unlike the harsh gradients of the past, modern gradients are often soft and sophisticated, enhancing the overall aesthetic appeal.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    <strong>Dark Mode Options:</strong> Many websites now offer dark mode alternatives, reducing eye strain for users and providing a modern, sleek appearance. This trend is particularly popular among tech-savvy audiences and improves accessibility.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-6">
+                    <strong>Authentic Photography and Illustrations:</strong> Stock photography is becoming less common, with businesses opting for authentic, custom photography and unique illustrations that better represent their brand identity. This personal touch helps Perth businesses stand out from competitors and build stronger connections with their audience.
+                </p>
+            </section>
+
+            <!-- Section 4: Performance Optimization -->
+            <section class="mb-12">
+                <h2 class="text-3xl font-bold text-secondary-900 mb-6">4. Performance Optimization and Speed</h2>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    Website performance directly impacts user experience and search engine rankings. Google's Core Web Vitals—a set of metrics measuring loading speed, interactivity, and visual stability—are now official ranking factors. Perth businesses that optimize their website performance gain a competitive advantage in search results.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    Key performance optimization strategies include:
+                </p>
+                
+                <ul class="list-disc list-inside space-y-3 mb-6 text-lg">
+                    <li><strong>Image Optimization:</strong> Compress images without sacrificing quality, use modern image formats like WebP, and implement lazy loading for images below the fold.</li>
+                    <li><strong>Caching Strategies:</strong> Implement browser caching and server-side caching to reduce load times for returning visitors.</li>
+                    <li><strong>Content Delivery Networks (CDN):</strong> Use global CDN services to serve content from servers closest to your users, dramatically reducing latency.</li>
+                    <li><strong>Code Minification:</strong> Minimize CSS, JavaScript, and HTML files to reduce file sizes and improve loading speed.</li>
+                    <li><strong>Database Optimization:</strong> Ensure your website's backend is efficiently querying and serving data.</li>
+                </ul>
+                
+                <p class="text-lg leading-relaxed mb-6">
+                    For Perth businesses, fast-loading websites lead to better user experience, improved SEO rankings, and higher conversion rates. Professional web design services often include comprehensive performance optimization to ensure your website runs at peak efficiency.
+                </p>
+            </section>
+
+            <!-- Section 5: SEO Integration -->
+            <section class="mb-12">
+                <h2 class="text-3xl font-bold text-secondary-900 mb-6">5. SEO-Friendly Web Design</h2>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    Search engine optimization must be built into your website from the ground up. Modern web design integrates SEO best practices throughout the design and development process, rather than treating it as an afterthought.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    Essential SEO considerations in web design include:
+                </p>
+                
+                <ul class="list-disc list-inside space-y-3 mb-6 text-lg">
+                    <li><strong>Semantic HTML:</strong> Use proper HTML structure with semantic tags that help search engines understand your content.</li>
+                    <li><strong>Meta Tags and Descriptions:</strong> Implement descriptive title tags and meta descriptions for each page to improve click-through rates from search results.</li>
+                    <li><strong>Heading Hierarchy:</strong> Use H1, H2, and H3 tags properly to structure your content and signal importance to search engines.</li>
+                    <li><strong>Mobile Optimization:</strong> As mentioned earlier, mobile-friendly design is crucial for SEO success.</li>
+                    <li><strong>Schema Markup:</strong> Implement structured data markup to help search engines better understand your content.</li>
+                    <li><strong>Internal Linking:</strong> Strategic internal linking helps distribute page authority and improves navigation.</li>
+                </ul>
+                
+                <p class="text-lg leading-relaxed mb-6">
+                    Perth businesses that prioritize SEO in their web design strategy gain significant visibility in local search results. When your website is properly optimized for search engines, you attract more qualified traffic, leading to more leads and conversions.
+                </p>
+            </section>
+
+            <!-- Section 6: Conversion Optimization -->
+            <section class="mb-12">
+                <h2 class="text-3xl font-bold text-secondary-900 mb-6">6. Conversion Optimization Strategies</h2>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    A beautiful, fast website is only valuable if it converts visitors into customers. Conversion optimization involves strategically designing your website to guide visitors toward desired actions—whether that's making a purchase, filling out a contact form, or signing up for a newsletter.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    Effective conversion optimization includes:
+                </p>
+                
+                <ul class="list-disc list-inside space-y-3 mb-6 text-lg">
+                    <li><strong>Clear Value Proposition:</strong> Immediately communicate what your business offers and why visitors should care.</li>
+                    <li><strong>Prominent Call-to-Action (CTA):</strong> Make your primary CTAs visually distinct and easy to find. Use action-oriented language like "Get Started," "Learn More," or "Contact Us Today."</li>
+                    <li><strong>Trust Signals:</strong> Include customer testimonials, case studies, certifications, and security badges to build credibility.</li>
+                    <li><strong>Simplified Forms:</strong> Minimize form fields to reduce friction. Only ask for essential information.</li>
+                    <li><strong>Social Proof:</strong> Display customer reviews, ratings, and user-generated content to influence purchasing decisions.</li>
+                    <li><strong>A/B Testing:</strong> Continuously test different design elements, copy, and CTAs to identify what resonates with your audience.</li>
+                </ul>
+                
+                <p class="text-lg leading-relaxed mb-6">
+                    For Perth businesses, even small improvements in conversion rates can result in significant revenue increases. A professional web design agency can implement conversion optimization strategies that turn your website into a powerful sales tool.
+                </p>
+            </section>
+
+            <!-- Section 7: Conclusion -->
+            <section class="mb-12">
+                <h2 class="text-3xl font-bold text-secondary-900 mb-6">Conclusion: The Future of Web Design</h2>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    The web design landscape continues to evolve rapidly, with new technologies and user expectations constantly reshaping how websites should look and function. For Perth businesses, staying current with web design trends and best practices is essential for maintaining a competitive edge in the digital marketplace.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-4">
+                    The most successful websites combine stunning aesthetics with flawless functionality, prioritize user experience across all devices, and are optimized for both search engines and conversions. Whether you're building a new website or redesigning an existing one, focusing on these core principles will help you create a digital presence that drives real business results.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-6">
+                    If you're a Perth business looking to implement these web design best practices, consider partnering with a professional web design agency that understands your local market and has the expertise to create websites that deliver measurable results. The investment in quality web design pays dividends through improved user experience, better search rankings, and increased conversions.
+                </p>
+            </section>
+
+            <!-- Related Topics -->
+            <section class="bg-primary-50 rounded-lg p-8 mt-12">
+                <h3 class="text-2xl font-bold text-secondary-900 mb-4">Ready to Transform Your Web Presence?</h3>
+                <p class="text-lg text-secondary-600 mb-6">
+                    Implementing these web design trends and best practices requires expertise and attention to detail. Our team at Perth Website Design specializes in creating high-converting websites that combine beautiful design with powerful functionality.
+                </p>
+                <a href="https://pwd.com" class="inline-block bg-primary-600 hover:bg-primary-700 text-white font-bold py-3 px-8 rounded-lg btn-primary transition duration-300">
+                    Start Your Project Today
+                </a>
+            </section>
+        </div>
+
+        <!-- Author Bio -->
+        <div class="mt-16 pt-8 border-t border-gray-200">
+            <div class="flex items-start gap-6">
+                <div class="w-16 h-16 bg-gradient-to-br from-primary-600 to-primary-700 rounded-full flex items-center justify-center flex-shrink-0">
+                    <span class="text-white text-2xl font-bold">P</span>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-secondary-900 mb-2">Perth Website Design Team</h4>
+                    <p class="text-secondary-600 leading-relaxed">
+                        Our team of web design professionals is dedicated to helping Perth businesses create stunning, high-converting websites. With years of experience in the industry, we stay current with the latest trends and best practices to ensure our clients' websites remain competitive and effective.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Related Articles Section -->
+    <section class="py-16 bg-gradient-to-br from-secondary-50 to-gray-50 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-secondary-900 mb-12 text-center">More Web Design Resources</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <article class="card-hover bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="h-48 bg-gradient-to-br from-primary-100 to-primary-50"></div>
+                    <div class="p-6">
+                        <span class="text-sm text-primary-600 font-semibold">Web Design</span>
+                        <h3 class="text-xl font-bold text-secondary-900 mt-2 mb-3">Why Your Perth Business Needs a Professional Website</h3>
+                        <p class="text-secondary-600 mb-4">Discover how a professional website can transform your business and help you reach more customers in Perth and beyond.</p>
+                        <a href="#" class="text-primary-600 hover:text-primary-700 font-semibold transition duration-300">Read More →</a>
+                    </div>
+                </article>
+                
+                <article class="card-hover bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="h-48 bg-gradient-to-br from-primary-100 to-primary-50"></div>
+                    <div class="p-6">
+                        <span class="text-sm text-primary-600 font-semibold">SEO & Marketing</span>
+                        <h3 class="text-xl font-bold text-secondary-900 mt-2 mb-3">Local SEO Tips for Perth Businesses</h3>
+                        <p class="text-secondary-600 mb-4">Learn proven strategies to improve your visibility in local search results and attract more customers in Western Australia.</p>
+                        <a href="#" class="text-primary-600 hover:text-primary-700 font-semibold transition duration-300">Read More →</a>
+                    </div>
+                </article>
+                
+                <article class="card-hover bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="h-48 bg-gradient-to-br from-primary-100 to-primary-50"></div>
+                    <div class="p-6">
+                        <span class="text-sm text-primary-600 font-semibold">Development</span>
+                        <h3 class="text-xl font-bold text-secondary-900 mt-2 mb-3">Website Performance: Speed Matters</h3>
+                        <p class="text-secondary-600 mb-4">Understand why website speed is critical for user experience and search engine rankings, and how to optimize your site.</p>
+                        <a href="#" class="text-primary-600 hover:text-primary-700 font-semibold transition duration-300">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <!-- Brand -->
+                <div>
+                    <h3 class="text-2xl font-bold gradient-text mb-4">Perth Website Design</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Professional web design solutions for Perth businesses. Fast, affordable, and built by a friendly team.
+                    </p>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition duration-300">Web Design</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition duration-300">Web Development</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">SEO Optimization</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Maintenance</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Company -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Portfolio</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Legal -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Legal</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                        &copy; 2024 Perth Website Design. All rights reserved.
+                    </p>
+                    <div class="flex gap-6">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="Facebook">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="Twitter">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 002.856-3.51 10 10 0 01-2.856 3.51c-1.674 1.674-3.515 2.757-5.5 3.247a10 10 0 01-.5-3.5 10 10 0 0110-10 10 10 0 0110 10 10 10 0 01-.5 3.5 10 10 0 015.5-3.247 10 10 0 01-2.856 3.51 10 10 0 002.856-3.51 10 10 0 00-10-10 10 10 0 00-10 10 10 10 0 00.5 3.5 10 10 0 01-5.5-3.247 10 10 0 012.856-3.51 10 10 0 01-.5-3.5 10 10 0 0110-10 10 10 0 0110 10 10 10 0 01-.5 3.5z"/></svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="LinkedIn">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+        
+        function toggleAccordion(button) {
+            const content = button.nextElementSibling;
+            const isActive = content.classList.contains('active');
+            
+            document.querySelectorAll('.accordion-content.active').forEach(item => {
+                item.classList.remove('active');
+                item.previousElementSibling.querySelector('svg').style.transform = 'rotate(0deg)';
+            });
+            
+            if (!isActive) {
+                content.classList.add('active');
+                button.querySelector('svg').style.transform = 'rotate(180deg)';
+            }
+        }
+        
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            
+            const form = event.target;
+            const formMessage = document.getElementById('formMessage');
+            
+            const formData = new FormData(form);
+            const data = {
+                name: formData.get('name'),
+                email: formData.get('email'),
+                phone: formData.get('phone'),
+                message: formData.get('message')
+            };
+            
+            formMessage.classList.remove('hidden');
+            formMessage.classList.add('bg-green-100', 'text-green-800');
+            formMessage.textContent = 'Thank you! We\'ll get back to you shortly.';
+            
+            form.reset();
+            
+            setTimeout(() => {
+                formMessage.classList.add('hidden');
+                formMessage.classList.remove('bg-green-100', 'text-green-800');
+            }, 5000);
+        }
+        
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    if (document.getElementById('mobileMenu')) {
+                        document.getElementById('mobileMenu').classList.add('hidden');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
