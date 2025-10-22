@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Perth Website Design Blog - Fast, low cost, friendly team. Expert insights on web design services in Western Australia with high conversion rates and global CDN.">
+    <meta name="keywords" content="Perth website design blog, web design tips, Western Australia web design, affordable web design, professional websites">
+    <meta name="author" content="Perth Website Design">
+    <meta name="theme-color" content="#1f2937">
+    <title>Blog - Perth Website Design - Fast, Professional Web Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                        },
+                        secondary: {
+                            50: '#f8fafc',
+                            600: '#475569',
+                            700: '#334155',
+                            900: '#0f172a',
+                        }
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-in',
+                        'slide-up': 'slideUp 0.6s ease-out',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(20px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+        }
+        
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+        
+        .accordion-item {
+            transition: all 0.3s ease;
+        }
+        
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .accordion-content.active {
+            max-height: 500px;
+        }
+    </style>
+</head>
+<body class="bg-white text-secondary-700">
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="https://test-acc-12349.github.io/perth-website-design-2025-10-22-am5mw" class="text-2xl font-bold gradient-text">PWD</a>
+            </div>
+            
+            <a href="https://test-acc-12349.github.io/perth-website-design-2025-10-22-am5mw" class="text-secondary-600 hover:text-primary-600 transition duration-300 font-medium">← Back</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-primary-50 via-white to-secondary-50 overflow-hidden">
+        <div class="absolute inset-0 opacity-5">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-primary-600 rounded-full mix-blend-multiply filter blur-3xl"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-primary-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 relative z-10">
+            <div class="text-center animate-slide-up">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-900 leading-tight tracking-tight mb-6">
+                    Our Blog
+                </h1>
+                <p class="text-xl md:text-2xl text-primary-600 font-semibold mb-4">Insights & Expertise</p>
+                <p class="text-lg text-secondary-600 leading-relaxed max-w-3xl mx-auto">
+                    Discover expert insights, practical tips, and industry trends for web design and digital marketing. Our blog is dedicated to helping Perth businesses succeed online with actionable strategies and best practices.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Content Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Featured Blog Post -->
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-secondary-900 mb-8">Latest Post</h2>
+                
+                <article class="card-hover bg-white border border-gray-200 rounded-xl overflow-hidden shadow-md">
+                    <div class="p-8 md:p-12">
+                        <div class="flex items-center gap-4 mb-6">
+                            <span class="inline-block bg-primary-100 text-primary-700 px-4 py-2 rounded-full text-sm font-semibold">Web Design</span>
+                            <span class="text-sm text-secondary-600 font-medium">October 22, 2025</span>
+                        </div>
+                        
+                        <h3 class="text-3xl md:text-4xl font-bold text-secondary-900 mb-6 leading-tight">
+                            Getting Started with Our Platform
+                        </h3>
+                        
+                        <div class="prose prose-sm max-w-none mb-8">
+                            <p class="text-lg text-secondary-600 leading-relaxed mb-4">
+                                <strong>Web Design Trends & Best Practices for Perth Businesses</strong>
+                            </p>
+                            <p class="text-secondary-600 leading-relaxed">
+                                Modern Perth businesses must prioritize responsive design, user experience, and accessibility to thrive online. Key trends include minimalist aesthetics, bold typography, and authentic imagery that build brand identity. Performance optimization directly impacts SEO rankings and conversions—fast-loading websites reduce bounce rates significantly. Integrating SEO best practices from the ground up ensures better search visibility through proper HTML structure, meta tags, and mobile optimization. Conversion optimization strategies like clear value propositions, prominent CTAs, and trust signals transform visitors into customers. By combining stunning design with flawless functionality across all devices, Perth businesses create competitive digital presences that deliver measurable results and sustainable growth.
+                            </p>
+                        </div>
+                        
+                        <a href="https://test-acc-12349.github.io/perth-website-design-2025-10-22-am5mw/blog/getting-started-with-our-platform.html" class="inline-block bg-primary-600 hover:bg-primary-700 text-white font-bold py-3 px-8 rounded-lg btn-primary transition duration-300">
+                            Read More →
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Blog Posts Grid -->
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-secondary-900 mb-8">More Articles</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Placeholder Post 1 -->
+                    <div class="card-hover bg-white border border-gray-200 rounded-xl p-8 shadow-md opacity-50">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="inline-block bg-primary-100 text-primary-700 px-3 py-1 rounded-full text-xs font-semibold">Coming Soon</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary-900 mb-3">More insights coming soon</h3>
+                        <p class="text-secondary-600 text-sm leading-relaxed">
+                            We're working on more valuable content to help your business succeed online.
+                        </p>
+                    </div>
+                    
+                    <!-- Placeholder Post 2 -->
+                    <div class="card-hover bg-white border border-gray-200 rounded-xl p-8 shadow-md opacity-50">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="inline-block bg-primary-100 text-primary-700 px-3 py-1 rounded-full text-xs font-semibold">Coming Soon</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary-900 mb-3">More insights coming soon</h3>
+                        <p class="text-secondary-600 text-sm leading-relaxed">
+                            We're working on more valuable content to help your business succeed online.
+                        </p>
+                    </div>
+                    
+                    <!-- Placeholder Post 3 -->
+                    <div class="card-hover bg-white border border-gray-200 rounded-xl p-8 shadow-md opacity-50">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="inline-block bg-primary-100 text-primary-700 px-3 py-1 rounded-full text-xs font-semibold">Coming Soon</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary-900 mb-3">More insights coming soon</h3>
+                        <p class="text-secondary-600 text-sm leading-relaxed">
+                            We're working on more valuable content to help your business succeed online.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Description Section -->
+            <div class="bg-gradient-to-br from-secondary-50 to-gray-50 rounded-xl p-8 md:p-12">
+                <h2 class="text-3xl font-bold text-secondary-900 mb-6">What You'll Find Here</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold text-secondary-900 mb-3 flex items-center">
+                            <svg class="w-6 h-6 text-primary-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            Web Design Tips
+                        </h3>
+                        <p class="text-secondary-600 leading-relaxed">
+                            Expert guidance on creating stunning, user-friendly websites that convert visitors into customers. Learn about responsive design, UX best practices, and modern design trends.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-bold text-secondary-900 mb-3 flex items-center">
+                            <svg class="w-6 h-6 text-primary-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            SEO & Performance
+                        </h3>
+                        <p class="text-secondary-600 leading-relaxed">
+                            Discover how to optimize your website for search engines and improve loading speeds. Learn technical SEO, keyword strategies, and performance optimization techniques.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-bold text-secondary-900 mb-3 flex items-center">
+                            <svg class="w-6 h-6 text-primary-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            Conversion Optimization
+                        </h3>
+                        <p class="text-secondary-600 leading-relaxed">
+                            Learn strategies to turn your website visitors into paying customers. Explore CTA optimization, trust signals, and persuasive design principles that drive results.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-bold text-secondary-900 mb-3 flex items-center">
+                            <svg class="w-6 h-6 text-primary-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            Digital Marketing Insights
+                        </h3>
+                        <p class="text-secondary-600 leading-relaxed">
+                            Stay updated on the latest digital marketing trends and strategies. Learn about content marketing, social media integration, and building your online presence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-24 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-primary-600 to-primary-700 opacity-90"></div>
+        <div class="absolute inset-0" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop'); background-size: cover; background-position: center; opacity: 0.1;"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+                Ready to Transform Your Online Presence?
+            </h2>
+            <p class="text-xl text-primary-100 mb-10 max-w-2xl mx-auto">
+                Join hundreds of Perth businesses that have already upgraded their web presence with our professional design solutions.
+            </p>
+            <a href="https://test-acc-12349.github.io/perth-website-design-2025-10-22-am5mw" class="inline-block bg-white text-primary-600 hover:bg-primary-50 font-bold py-4 px-10 rounded-lg btn-primary text-lg transition duration-300 shadow-xl">
+                Get Started Today
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <!-- Brand -->
+                <div>
+                    <h3 class="text-2xl font-bold gradient-text mb-4">Perth Website Design</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Professional web design solutions for Perth businesses. Fast, affordable, and built by a friendly team.
+                    </p>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://test-acc-12349.github.io/perth-website-design-2025-10-22-am5mw" class="text-gray-400 hover:text-white transition duration-300">Web Design</a></li>
+                        <li><a href="https://test-acc-12349.github.io/perth-website-design-2025-10-22-am5mw" class="text-gray-400 hover:text-white transition duration-300">Web Development</a></li>
+                        <li><a href="https://test-acc-12349.github.io/perth-website-design-2025-10-22-am5mw" class="text-gray-400 hover:text-white transition duration-300">SEO Optimization</a></li>
+                        <li><a href="https://test-acc-12349.github.io/perth-website-design-2025-10-22-am5mw" class="text-gray-400 hover:text-white transition duration-300">Maintenance</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Company -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://test-acc-12349.github.io/perth-website-design-2025-10-22-am5mw" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="https://test-acc-12349.github.io/perth-website-design-2025-10-22-am5mw/blog" class="text-gray-400 hover:text-white transition duration-300">Blog</a></li>
+                        <li><a href="https://test-acc-12349.github.io/perth-website-design-2025-10-22-am5mw" class="text-gray-400 hover:text-white transition duration-300">Portfolio</a></li>
+                        <li><a href="https://test-acc-12349.github.io/perth-website-design-2025-10-22-am5mw" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Legal -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Legal</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                        &copy; 2024 Perth Website Design. All rights reserved.
+                    </p>
+                    <div class="flex gap-6">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="Facebook">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="Twitter">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 002.856-3.51 10 10 0 01-2.856 3.51c-1.674 1.674-3.515 2.757-5.5 3.247a10 10 0 01-.5-3.5 10 10 0 0110-10 10 10 0 0110 10 10 10 0 01-.5 3.5 10 10 0 015.5-3.247 10 10 0 01-2.856 3.51 10 10 0 002.856-3.51 10 10 0 00-10-10 10 10 0 00-10 10 10 10 0 00.5 3.5 10 10 0 01-5.5-3.247 10 10 0 012.856-3.51 10 10 0 01-.5-3.5 10 10 0 0110-10 10 10 0 0110 10 10 10 0 01-.5 3.5z"/></svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="LinkedIn">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+        
+        function toggleAccordion(button) {
+            const content = button.nextElementSibling;
+            const isActive = content.classList.contains('active');
+            
+            document.querySelectorAll('.accordion-content.active').forEach(item => {
+                item.classList.remove('active');
+                item.previousElementSibling.querySelector('svg').style.transform = 'rotate(0deg)';
+            });
+            
+            if (!isActive) {
+                content.classList.add('active');
+                button.querySelector('svg').style.transform = 'rotate(180deg)';
+            }
+        }
+        
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
